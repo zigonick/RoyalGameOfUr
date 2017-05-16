@@ -1,0 +1,22 @@
+{
+  "name": "royal-game-of-ur",
+  "version": "0.0.1",
+  "description": "Royal Game of Ur",
+  "main": "server.js",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zigonick/RoyalGameOfUr.git"
+  },
+  "author": "zigonick, darkstar31",
+  "bugs": { "url": "https://github.com/zigonick/RoyalGameOfUr/issues" },
+  "homepage": "https://github.com/zigonick/RoyalGameOfUr#readme",
+  "dependencies": {
+    "socket.io": "2.0.1",
+    "bulma": "0.4.1",
+    "eslint": "3.19.0"
+  }
+}
