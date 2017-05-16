@@ -1,10 +1,12 @@
 module.exports = () => {
     return {
         files: [
-            'src/*',
+            'src/**/*.js',
+            'src/**/*.ts',
+            { pattern: 'node_modules/sinon/pkg/sinon.js', instrument: false }
         ],
         tests: [
-            '*.test.js'
+            'test/**/*Tests.js'
         ],
         debug: true
     };
