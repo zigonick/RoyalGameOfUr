@@ -1,4 +1,3 @@
-import core = require('Core');
 describe('core', function() {
     
     describe('getRanomdNumber', function() {
@@ -25,5 +24,4 @@ describe('core', function() {
             expect(actual).toBe(5);
         }); 
     });
-
 });

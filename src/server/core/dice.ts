@@ -1,5 +1,4 @@
 class Die {
-    
     public faceUp: number;
     public rotation: number;
     
@@ -12,4 +11,3 @@ class Die {
         return (this.faceUp > 2) ? 1 : 0;
     }
 }
-

@@ -1,4 +1,4 @@
- function getRandomNumber(min, max)
+function getRandomNumber(min, max)
 {
     return Math.floor(Math.random() * (max - min)) + min;
 }
