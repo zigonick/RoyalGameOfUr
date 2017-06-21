@@ -8,11 +8,11 @@ describe('Die', function () {
     describe('Die Attributes', function() { 
     
         it ('faceUp is not null', function() {
-            expect(die.faceUp).not.toBe(undefined);
+            expect(die.faceUp).not.to.equal(undefined);
         });
 
         it('rotation is not null', function() {
-            expect(die.rotation).not.toBe(undefined);
+            expect(die.rotation).not.to.equal(undefined);
         });
     });
 
@@ -20,22 +20,22 @@ describe('Die', function () {
 
         it('given faceup of 1 returns 0', function() {
             die.faceUp = 1;
-            expect(die.value).toBe(0);
+            expect(die.value).to.equal(0);
         });
 
         it('given faceup of 2 returns 0', function() {
             die.faceUp = 2;
-            expect(die.value).toBe(0);
+            expect(die.value).to.equal(0);
         });
         
         it('given faceup of 3 returns 1', function() {
             die.faceUp = 3;
-            expect(die.value).toBe(1);
+            expect(die.value).to.equal(1);
         });
         
         it('given faceup of 4 returns 1', function() {
             die.faceUp = 4;
-            expect(die.value).toBe(1);
+            expect(die.value).to.equal(1);
         }); 
     });
 });
