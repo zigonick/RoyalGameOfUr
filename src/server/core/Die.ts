@@ -3,8 +3,8 @@ class Die {
     public rotation: number;
     
     public constructor() {
-        this.faceUp = getRandomNumber(1, 4);
-        this.rotation = getRandomNumber(0, 359);
+        this.faceUp = Core.getRandomNumber(1, 4);
+        this.rotation = Core.getRandomNumber(0, 359);
     }
 
     public get value(): number {
